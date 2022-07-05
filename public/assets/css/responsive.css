@@ -51,6 +51,7 @@
     opacity: 0;
     transition: all 0.35s ease;
   }
+  
   .navbar-collapse .nav-link::after {
     content: "";
     width: 0;

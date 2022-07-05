@@ -25,10 +25,21 @@
     1 - Header
 ------------------------------------*/
 header {
-  *background-color: rgba(238, 21, 21);
-  background-color: rgba(24, 9, 53, 0.90);
+  background-color: #ffffff;
   color: #fff;
   z-index: 1000;
+}
+
+.menuRojoDiv {
+  background-color: #f70303;
+}
+
+.menuGrisDiv {
+  background-color: #ededed;
+}
+
+.glyphicon::before {
+  color: #3c3c3b;
 }
 
 
@@ -47,7 +58,13 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Rajdhani", sans-serif;
+  color: #aaa;
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -749,7 +766,28 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  *background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: center center/cover no-repeat #f70303;
+}
+
+#footerPer {
+	position: absolute;
+	left: 0px;
+	top: 7009.864px;
+	overflow: visible;
+}
+
+#footerPerRojo {
+	fill: #f70303;
+  width: 1920px;
+	height: 162.419px;
+}
+
+.footerPerRojo {
+	position: absolute;
+	overflow: visible;
+	left: 0px;
+	top: -0.001px;
 }
 
 /*-----------------------------------
@@ -814,7 +852,7 @@ span {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .recent-post-widget a {
@@ -844,8 +882,8 @@ span {
   border-radius: 2px;
   background-color: #363636;
   font-size: 14px;
-  font-family: "Rajdhani", sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   margin: 10px 10px 0 0;
 }
 
